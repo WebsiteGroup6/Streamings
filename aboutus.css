@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{   
+    background-repeat: no-repeat;
+    height: 100px;
+    background-size: cover;
+}
+nav{
+    background-image: radial-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 100px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.925);
+}
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.521);
+    transition: all 0.3s ease;
+    color: black;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+
+.box3{
+    background-color:   rgba(0, 0, 0, 0);
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    margin: 550px 431.5px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: left;
+    border-radius: 10px;
+    font-style: normal;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.473);
+    text-align: center;
+
+}
+.box4{
+    background-color:   rgba(0, 0, 0, 0);
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    margin: 620px 431.5px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: left;
+    border-radius: 10px;
+    font-style: normal;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.473);
+    text-align: center;
+
+}
+    
+
+.Image1{
+  margin: 0px;
+  width: 100%;
+  align-items: center;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.square{
+    top: 70px;
+    right: 980px;
+    border-radius: 50%;
+    align-self: left;
+    background-position: center;
+    opacity: 50%;
+}
+.square2{
+    top: 160px;
+    right: 130px;
+
+    border-radius: 50%;
+}
+.square3{
+    top: 170px;
+    right: 0px;
+
+    border-radius: 50%;
+}
+
+.twitch{
+    display: block;
+    margin: 100px 431.5px;
+    position: static;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    text-shadow: none;
+}
+.card{
+    background: rgba(255, 255, 255, 0);
+    width: 600px;
+    height: 100px;
+    margin: 0px;
+    border-radius: 15px;
+
+}
+.cardimage{
+    background-color: rgba(0, 0, 0, 0);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.car1{
+    background-image: url(https://www.rappler.com/tachyon/r3-assets/612F469A6EA84F6BAE882D2B94A4B421/img/82AC5510AA3147CB8581E926774FE5A8/apec-schools-press-release-20160121.jpg);
+    margin-top: -600px;
+
+}
+.square3{
+    top: 540px;
+    right: 130px;
+    transform: rotate(10deg);
+    background-attachment: fixed;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.349),rgba(0, 0, 0, 0.329));
+    border-radius: 50%;
+}
+
+.Screen {
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.788);
+}
+.p{
+    font-family: normal;
+    padding: 15px;
+    text-align: left;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    opacity: 70%;
+
+}
+.Screen1{
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+.p1{
+    font-family: normal;
+    text-align: left;
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 70%;
+}
+.card:hover{
+    transition: all 0.5s;
+    transform: scale(1.01);
+  }

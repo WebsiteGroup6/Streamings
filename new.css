@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: 100%;
+    bottom: 100px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+nav{
+    background-image: radial-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+    box-shadow: 3px 3px 5px rgba(255, 255, 255,)
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 100px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.925);
+}
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.521);
+    transition: all 0.3s ease;
+    color: black;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.box3{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+    
+
+.Image1{
+  margin: 0px;
+  width: 100%;
+  align-items: center;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.square{
+    top: 70px;
+    right: 980px;
+    border-radius: 50%;
+    align-self: left;
+    background-position: center;
+    opacity: 50%;
+}
+.square2{
+    top: 160px;
+    right: 130px;
+
+    border-radius: 50%;
+}
+.square3{
+    top: 170px;
+    right: 0px;
+
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    background: rgb(235, 235, 235);
+    width: 400px;
+    height: 500px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px black;
+}
+.cardimage{
+    background-color: black;
+    height: 150px;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+.car1{
+    background-image: url(https://i.shgcdn.com/5a4e48c5-b162-4bc1-8f86-598f43554655/-/format/auto/-/preview/3000x3000/-/quality/lighter/.png);
+
+}
+.car2{
+    background-image: url(https://cdn.britannica.com/55/242555-050-3E60BEB6/Netflix-media-streaming-on-laptop.jpg);
+}
+.car3{
+    background-image: url(https://restream.io/blog/content/images/2023/03/ways-to-make-money-live-streaming.jpg);
+}
+.square3 {
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.329));
+    border-radius: 50%;
+    width: 50%;  /* Define a width */
+    height: 50%; /* Define a height */
+    top: 50%; /* Example positioning */
+    left: 50%; /* Example positioning */
+    transform: translate(-50%, -50%); /* Center it based on its dimensions */
+    position: absolute;
+    justify-items: center;
+    justify-content: center;
+    margin: 43%;
+}
+
+.Screen {
+    font-style: normal;
+    font-size: 22px;
+}
+.p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    padding: 10px;
+}
+.square3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+
+  }
+  .card:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+    transform: scale(1.1);
+  }

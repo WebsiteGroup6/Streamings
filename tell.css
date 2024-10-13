@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{   
+    background-image: linear-gradient(-90deg, rgb(255, 255, 255), rgb(0, 0, 0));
+    height: 100px;
+    background-size: 500%;
+}
+nav{
+    background-image: radial-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 100px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.925);
+}
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.521);
+    transition: all 0.3s ease;
+    color: black;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+
+.box3{
+    background-color:   rgba(0, 0, 0, 0);
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    margin: 550px 431.5px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: left;
+    border-radius: 10px;
+    font-style: normal;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.473);
+    text-align: center;
+
+}
+.box4{
+    background-color:   rgba(0, 0, 0, 0);
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    margin: 620px 431.5px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: left;
+    border-radius: 10px;
+    font-style: normal;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.473);
+    text-align: center;
+
+}
+    
+
+.Image1{
+  margin: 0px;
+  width: 100%;
+  align-items: center;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.square{
+    top: 70px;
+    right: 980px;
+    border-radius: 50%;
+    align-self: left;
+    background-position: center;
+    opacity: 50%;
+}
+.square2{
+    top: 160px;
+    right: 130px;
+
+    border-radius: 50%;
+}
+.square3{
+    top: 170px;
+    right: 0px;
+
+    border-radius: 50%;
+}
+
+.twitch{
+    display: block;
+    margin: 100px 431.5px;
+    position: static;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    background: rgb(255, 255, 255);
+    width: 600px;
+    height: 1000px;
+    margin: 30px;
+    border-radius: 15px;
+
+}
+.cardimage{
+    background-color: black;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.car1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/19/Twitch.jpg);
+
+}
+.car2{
+    background-image: url(https://images.macrumors.com/t/oVY3CeutZiDKCY3YZHL7LEoRf54=/1600x0/article-new/2021/09/General-YouTube-Feature-1.jpg);
+}
+.car3{
+    background-image: url(https://www.internetmatters.org/wp-content/uploads/2024/04/kick-streaming-article-feature.webp);
+}
+.car4{
+    background-image: url(https://api.freelogodesign.org/assets/blog/thumb/4ddcba00db4142899d322683c681601a_1176x840.jpg?t=638369603760000000);
+}
+.square3{
+    top: 540px;
+    right: 130px;
+    transform: rotate(10deg);
+    background-attachment: fixed;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.349),rgba(0, 0, 0, 0.329));
+    border-radius: 50%;
+}
+
+.Screen {
+    font-style: normal;
+    font-size: 22px;
+}
+.p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    text-align: left;
+}
+.card:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+    transform: scale(1.1);
+  }
